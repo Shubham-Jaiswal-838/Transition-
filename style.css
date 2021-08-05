@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(125, 125, 125, .2);
+    width: 100%;
+}
+header nav ul li, #form {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+   
+}
+ul .logo {
+    display: flex;
+    justify-content:space-evenly;
+}
+header nav ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.first, .second {
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.logo {
+    border: 2px solid gray;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.5);
+}
+#form{
+    float: right;
+    margin-right: 20px;
+}
+input{
+    height: 30px;
+    width: 175px;
+    border-radius: 5px;
+    border:2px solid gray;
+}
+button{
+    height: 30px;
+    width: 65px;
+    border-radius: 5px;
+    border:2px solid gray;
+}
+.container{
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+    background: rgba(59, 53, 53, 0.2);
+    border:outset 2px rgba(125, 125, 125, .2);
+    border-radius: 25px;
+    padding: 10px;
+}   
+.transition-with-practical{
+    width:150px;
+    height:150px;
+    background-image: linear-gradient(to right,yellow, blue,red, white);
+    margin-top: 20px;
+    margin-left: 20px;
+    transition-property: width;
+    transition-duration: 2s;
+
+}
+.transition-with-practical:hover{
+    width:500px;
+    
+}
+.dot{
+    height: 10px;
+    width:10px;
+    background-color: #bbb;
+    border-radius: 75%;
+    display: inline-block;
+    margin-left:10px;
+}
+
+th{
+    font-size: 1.3em;   
+}
+table{
+    width: 60%;
+    margin: 15px auto;
+    background: rgba(125, 125, 125, .2);
+    border: outset 2px rgba(125, 125, 125, .2);
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+tr,td {
+    border: 1px solid rgba(125, 125, 125, .3);
+    border-radius: 5px;
+    text-align: center;
+}
+.table-data:first-child{
+    background-color: rgba(125, 125, 125,.5);
+   
+}
+
+svg{
+    width: 20px;
+    height: 15px;
+}
+.shorthand-property{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgba(125, 125, 125,.2);
+    border-radius: 25px;
+    padding: 10px;
+    border: outset 2px rgba(125, 125, 125, .2);
+}
+.paragraph-1,.paragraph-2{
+    background-color:rgba(125, 125, 125,.5);
+    border-radius: 10px;
+    padding: 5px;
+   border: outset 2px rgba(125, 125, 125, .2);
+}
+
